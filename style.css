@@ -254,7 +254,7 @@ button:focus {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #333;
+  background-color: #e84118;
   content: "";
   z-index: -1;
   transition: all 0.5s ease;
@@ -272,7 +272,8 @@ button:focus {
 }
 
 .cta-contact {
-  border: 1px solid #fff;
+  background-color: #e84118; 
+  border: 1px solid #e84118;
 }
 
 .cta-contact::after {
@@ -282,7 +283,7 @@ button:focus {
   top: 0;
   left: -100%;
   content: "";
-  background-color: #333;
+  background-color: #e84118;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -295,7 +296,7 @@ button:focus {
 }
 
 .cta-contact:hover {
-  border-color: #e84118;
+  border-color: #fff;
 }
 
 canvas {
