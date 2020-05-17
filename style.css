@@ -454,7 +454,7 @@ canvas {
   border-radius: 20px;
   position: relative;
 }
-
+/*
  .skill-progress::before {
   position: absolute;
   top: -40px;
@@ -477,7 +477,7 @@ canvas {
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
   border-top: 6px solid #fff;
-} 
+} */
 
 /*** service styles ***/
 
