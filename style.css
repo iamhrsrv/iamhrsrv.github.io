@@ -254,7 +254,7 @@ button:focus {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #e84118;
+  background-color: #333;
   content: "";
   z-index: -1;
   transition: all 0.5s ease;
@@ -282,7 +282,7 @@ button:focus {
   top: 0;
   left: -100%;
   content: "";
-  background-color: #e84118;
+  background-color: #333;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -454,7 +454,7 @@ canvas {
   position: relative;
 }
 
-/* .skill-progress::before {
+ .skill-progress::before {
   position: absolute;
   top: -40px;
   right: -7px;
@@ -464,9 +464,9 @@ canvas {
   padding: 1px 5px;
   font-size: 12px;
   border-radius: 10px;
-} */
+} 
 
-/* .skill-progress::after {
+ .skill-progress::after {
   position: absolute;
   content: "";
   width: 0;
@@ -476,7 +476,7 @@ canvas {
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
   border-top: 6px solid #fff;
-} */
+} 
 
 /*** service styles ***/
 
@@ -687,90 +687,6 @@ ul.filter li.filter-active {
   z-index: 2;
 }
 
-/** testimonials styling **/
-
-.testimonials {
-  background: url(img/testi-back.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  position: relative;
-  color: #ddd;
-}
-
-.testimonials::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  z-index: 0;
-}
-
-.testimonials .section-header,
-.testimonials .testimonial-container {
-  z-index: 1;
-}
-
-.testimonials h3 {
-  color: #fff;
-}
-
-.testimonial-container {
-  margin-top: 60px;
-}
-
-.testi-img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  padding: 5px;
-  border: 1px solid #ddd;
-  margin: 0 auto;
-}
-
-.testi-img img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  display: inline-block;
-  border: 2px solid #fff;
-}
-
-.testi-name {
-  margin-top: 30px;
-  font-weight: bold;
-  font-size: 18px;
-  color: #e84118;
-}
-
-.testimonial-item-content .position {
-  font-weight: bold;
-}
-
-.testimonial-content {
-  margin-top: 30px;
-  font-style: italic;
-}
-
-.owl-carousel button.owl-dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 5px;
-  margin: 0 5px;
-  background-color: #fff;
-}
-
-.owl-carousel button.owl-dot.active {
-  background-color: #e84118;
-}
-
-.quote .fa {
-  font-size: 30px;
-  color: #fff;
-}
 
 
 /** contact styles **/
