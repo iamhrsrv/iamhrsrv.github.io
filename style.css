@@ -357,7 +357,7 @@ canvas {
   top: 0;
   left: -100%;
   content: "";
-  background-color: #333;
+  background-color: #000;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
